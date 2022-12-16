@@ -4,7 +4,7 @@ def run():
 
 def task1():
     max_cal = 0
-    with open("inputs/day1task1.txt", "r") as inp:
+    with open("inputs/day1.txt", "r") as inp:
         cal_sum = 0
         for line in inp:
             if line == "\n":
